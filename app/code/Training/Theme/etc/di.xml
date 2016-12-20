@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="training_theme_plugin_block_html_footer_plugin" type="Training\Theme\Plugin\Block\Html\FooterPlugin" sortOrder="1" disabled="false"/>
+    </type>
+</config>
